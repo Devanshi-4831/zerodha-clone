@@ -25,7 +25,7 @@ const authRoute = require("./Routes/AuthRoute");
 
 
 app.use(cors({
-  origin: ["http://localhost:3001"], // frontend likely runs on 3000
+  origin: ["http://localhost:3000"], // frontend likely runs on 3000
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
