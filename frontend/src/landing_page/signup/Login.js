@@ -21,7 +21,7 @@ const Login = () => {
 
       if (res.data.message === "Login successful") {
         // Redirect to homepage URL after login
-        window.location.href = "http://localhost:3000";
+        window.location.href = "http://localhost:3001";
       } else {
         setError(res.data.message || "Login failed");
       }
