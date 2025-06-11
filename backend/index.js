@@ -25,7 +25,7 @@ const authRoute = require("./Routes/AuthRoute");
 
 
 app.use(cors({
-  origin: ["https://zerodha-clone-fjj5.vercel.app/"], // frontend likely runs on 3000
+  origin: ["https://zerodha-clone-fjj5.vercel.app"], // frontend likely runs on 3000
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
@@ -245,7 +245,7 @@ mongoose
 
 app.use(
   cors({
-    origin: ["https://zerodha-clone-jlrw.vercel.app/", "https://zerodha-clone-fjj5.vercel.app/"],
+    origin: ["https://zerodha-clone-fjj5.vercel.app", "https://zerodha-clone-delta-gilt.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
