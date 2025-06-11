@@ -21,7 +21,7 @@ const Login = () => {
 
       if (res.data.message === "Login successful") {
         // Redirect to homepage URL after login
-        window.location.href = "http://localhost:3001";
+        window.location.href = "https://zerodha-clone-jlrw.vercel.app/";
       } else {
         setError(res.data.message || "Login failed");
       }
