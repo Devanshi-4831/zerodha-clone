@@ -25,7 +25,7 @@ const authRoute = require("./Routes/AuthRoute");
 
 
 app.use(cors({
-  origin: ["http://localhost:3000"], // frontend likely runs on 3000
+  origin: ["https://zerodha-clone-fjj5-f76h7131z-bhungaliyadevanshi318s-projects.vercel.app/"], // frontend likely runs on 3000
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
