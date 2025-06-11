@@ -14,7 +14,7 @@ const Login = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:3002/api/auth/login",
+        "https://zerodha-clone-j9pk.onrender.com/api/auth/login",
         { email, password },
         { withCredentials: true }
       );
